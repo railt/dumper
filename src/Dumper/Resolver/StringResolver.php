@@ -38,6 +38,7 @@ class StringResolver extends Resolver
      */
     public function value($string): string
     {
+        $string = (string)(\preg_replace('/\s+/iu', ' ', $string) ?? $string);
         $string = \addcslashes($string, '"');
 
         return $this->shorten($string, '"%s"', '"%s…" +%d');
@@ -52,14 +53,14 @@ class StringResolver extends Resolver
     private function shorten(string $value, string $patternNormal = '%s', string $patternOverflow = '%s… +%d'): string
     {
         $length = \mb_strlen($value);
-        $overflows = $length > 15;
+        $overflows = $length > 55;
 
         if (! $overflows) {
             return \sprintf($patternNormal, $value);
         }
 
-        $value = \mb_substr($value, 0, 10);
+        $value = \mb_substr($value, 0, 50);
 
-        return \sprintf($patternOverflow, $value, $length - 10);
+        return \sprintf($patternOverflow, $value, $length - 50);
     }
 }
