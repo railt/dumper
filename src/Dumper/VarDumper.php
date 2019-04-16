@@ -7,9 +7,9 @@
  */
 declare(strict_types=1);
 
-namespace Railt\Dumper;
+namespace Railt\Component\Dumper;
 
-use Railt\Dumper\VarDumper\HtmlDumper;
+use Railt\Component\Dumper\VarDumper\HtmlDumper;
 use Symfony\Component\VarDumper\Cloner\VarCloner;
 use Symfony\Component\VarDumper\Dumper\CliDumper;
 use Symfony\Component\VarDumper\Dumper\DataDumperInterface;

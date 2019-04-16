@@ -7,7 +7,7 @@
  */
 declare(strict_types=1);
 
-namespace Railt\Dumper\Resolver;
+namespace Railt\Component\Dumper\Resolver;
 
 /**
  * Class ReflectionParameterResolver

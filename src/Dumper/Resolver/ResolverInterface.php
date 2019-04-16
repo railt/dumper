@@ -7,9 +7,9 @@
  */
 declare(strict_types=1);
 
-namespace Railt\Dumper\Resolver;
+namespace Railt\Component\Dumper\Resolver;
 
-use Railt\Dumper\TypeDumperInterface;
+use Railt\Component\Dumper\TypeDumperInterface;
 
 /**
  * Interface ResolverInterface

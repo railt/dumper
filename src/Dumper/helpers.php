@@ -7,8 +7,8 @@
  */
 declare(strict_types=1);
 
-use Railt\Dumper\TypeDumper;
-use Railt\Dumper\VarDumper;
+use Railt\Component\Dumper\TypeDumper;
+use Railt\Component\Dumper\VarDumper;
 
 if (! \function_exists('\\dump_type')) {
     /**
