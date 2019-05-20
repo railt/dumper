@@ -7,7 +7,7 @@
  */
 declare(strict_types=1);
 
-namespace Railt\Component\Dumper\Resolver;
+namespace Railt\Dumper\Resolver;
 
 /**
  * Class GenericResolver

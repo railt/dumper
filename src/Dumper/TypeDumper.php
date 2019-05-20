@@ -7,11 +7,11 @@
  */
 declare(strict_types=1);
 
-namespace Railt\Component\Dumper;
+namespace Railt\Dumper;
 
-use Railt\Component\Dumper\Resolver\GenericResolver;
-use Railt\Component\Dumper\Resolver\ResolverInterface;
-use Railt\Component\Dumper\Resolver\SelfDisplayed;
+use Railt\Dumper\Resolver\GenericResolver;
+use Railt\Dumper\Resolver\ResolverInterface;
+use Railt\Dumper\Resolver\SelfDisplayed;
 
 /**
  * Class TypeDumper
