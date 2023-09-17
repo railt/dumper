@@ -15,6 +15,8 @@
     <a href="https://raw.githubusercontent.com/railt/dumper/1.4.x/LICENSE.md"><img src="https://poser.pugx.org/railt/dumper/license" alt="License MIT"></a>
 </p>
 
+> This package is **deprecated**. Please use `get_debug_type` PHP function instead.
+
 # Dumper
 
 > Note: All questions and issues please send 
